@@ -4,8 +4,8 @@ public class LinkedStack<Item>{
     private int n;          // size of the stack
     private Node first;     // top of stack
 
-    private class Node {
-        private Item item;
+    public class Node {
+        public Item item;
         private Node next;
     }
 
